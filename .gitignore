@@ -1,0 +1,26 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*~
+
+# Dependencies and build output
+node_modules/
+vendor/
+coverage/
+*.zip
+
+# Logs and test caches
+*.log
+.phpunit.result.cache
+.php-cs-fixer.cache
+
+# Local environment files
+.env
+.env.*
+!.env.example
